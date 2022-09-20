@@ -1,0 +1,67 @@
+---
+title: "Plots with shiny app"
+author: "Jyotirmoy Das"
+date: "`r format(Sys.Date(), '%d %B, %Y')`"
+format: 
+    html:
+        toc: true
+        toc-depth: 2
+        number-sections: true
+        highlight-style: github
+        code-fold: true
+        #page-layout: custom
+        css: custom.css
+        # fig_width: 7
+        # fig_height: 6
+        # fig_caption: true
+server: shiny
+---
+
+# Module-1: Create figure with legend
+
+This document is made for easy heatmap tutorial. To create a heatmap from a data frame or a matrix using the *ComplexHeatmap* R package.
+
+## Input data 
+
+Please upload the input data from a text file or CSV file. Only *.txt* or *.csv* format are currently accepted as input file format. 
+
+## Create Figure
+Figure will be generated as soon as you create the **"Create the Heatmap"** button. There will be a notification prompt at the right bottom corner of the page for the processing of the file.
+
+```{r, eval=TRUE, echo=TRUE}
+#| panel: sidebar
+suppressMessages(library(ComplexHeatmap))
+suppressMessages(library(extrafont))
+suppressMessages(library(shiny))
+suppressMessages(library(InteractiveComplexHeatmap))
+## read dataset
+  selectInput("selin",
+              "Please select the graph type",
+              choices = c("heatmap",
+                          "bean",
+                          "violin"),
+              selected = "heatmap",
+              multiple = FALSE           
+                        )
+  fileInput("inputdata", 
+            "Please upload your table",
+            accept = c(".txt",
+                       ".csv"))
+  actionButton("plot", 
+               "Create the plot")
+```
+
+```{r, eval= TRUE, echo = TRUE}
+#| panel: fill
+  plotOutput("plot",
+             width = 600, height = 800)
+```
+
+## Figure legend
+The above heatmap is created with R (v4.2.1) *ComplexHeatmap* (v2.12) package from the user dataset. The color sets according to the color bar legend. The raw values from the user-defined table used here without any modification. 
+
+## R session information
+Detail of R version, used package versions to generate the Heatmap will be displayed here.
+```{r, eval=TRUE, echo=TRUE}
+  sessionInfo()
+```

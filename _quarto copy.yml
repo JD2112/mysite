@@ -1,0 +1,59 @@
+project:
+  type: website
+
+website:
+  reader-mode: true
+  cookie-consent: true
+  twitter-card:
+    creator: "@jyotirmoy21"
+    site: "@rstudio"
+  page-navigation: true
+  page-footer: 
+    left: "Copyright 2022, Jyotirmoy Das"
+    right:
+      - icon: github
+        href: https://github.com
+      - icon: twitter
+        href: https://twitter.com
+    center: "Created with Quarto"
+  title: "jyotirmoydas"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Basics"
+        contents:
+          - about.qmd
+          - heatmap.qmd
+        #  - index.qmd
+        #  - basics-knitr.qmd
+        #  - basics-jupyter.qmd
+      - section: "Layout"
+        #contents:
+         # - layout.qmd
+         # - layout-knitr.qmd
+    tools:
+      - icon: twitter
+        href: https://twitter.com
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://code.com
+          - text: Report a Bug
+            url: https://bugs.com
+
+
+format:
+  html:
+    theme: 
+      light: sandstone
+      dark: darkly
+    css: styles.css
+    toc: true
+
+
+

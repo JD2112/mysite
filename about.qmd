@@ -1,0 +1,15 @@
+---
+title: "About ME"
+about:
+    template: trestles
+    #image: 
+    links: 
+        - icon: twitter
+          text: twitter
+          href: https://twitter.com
+        - icon: github
+          text: GitHub
+          href: https://github.com/JD2112
+---
+
+About this site
