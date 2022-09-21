@@ -26,10 +26,18 @@ website:
     style: "docked"
     search: true
     contents:
-      - section: "Basics"
+      - section: "About Me"
         contents:
           - about.qmd
-          - heatmap.qmd
+          - education.qmd
+          - experience.qmd
+          - teaching.qmd
+        #  - references.qmd
+          - publication.qmd
+        # listing:
+        #   contents: posts
+        #   feed: true
+        #bibliography: MyPublications.bib
         #  - index.qmd
         #  - basics-knitr.qmd
         #  - basics-jupyter.qmd

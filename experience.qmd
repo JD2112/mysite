@@ -1,0 +1,88 @@
+---
+title: "Experiences"
+#subtitle: "BIOINFORMATICIST"
+# about:
+#     template: trestles
+#     image: pics/portfolio.png
+#     image-shape: round
+#     links: 
+#         - icon: twitter
+#           text: twitter
+#           href: https://twitter.com
+#         - icon: github
+#           text: GitHub
+#           href: https://github.com/JD2112
+---
+# Work Experience/s
+- Principal Research Engineer (2020/09 onwards) \
+
+- Postdoctoral Fellow (2017/06 – 2020/08) \
+    Department of Clinical and Experimental Medicine, Linköping University, Sweden
+
+- Senior Research Fellow (2014/01 – 2017/01) \
+DST-INSPIRE (Govt. of India), Bioinformatics Centre, Bose Institute, India
+
+- Junior Research Fellow (2012/01 – 2014/01) \
+DST-INSPIRE (Govt. of India), Bioinformatics Centre, Bose Institute, India
+
+- Institute Fellow (2010/09 – 2012/01) \
+Bioinformatics Centre, Bose Institute, India
+
+- Research Trainee (2009/07 – 2010/05) \
+National Institute of Plant Genome Research, New Delhi, India.
+
+# Computational experience
+## Programming languages
+- R
+- Perl
+- Python
+- Shell scripting 
+- HTML
+- Markdown, Quarto
+- Jupyter
+
+## OS handling
+- GNU/Linux
+- MacOS
+- HPC/CentOS
+- HPC/amazon
+- Windows
+
+## Pipeline automation
+- NextFlow
+- SnakeMake
+- Make
+
+## Container/VM handling
+- Conda/Anaconda
+- Singularity
+- Docker
+- Podman
+
+## Other skills
+### Statistical
+- SPSS from IBM
+- MATLAB
+- GraphPad
+- STATA
+- OriginLab
+
+### Imaging softwares
+- ImageJ
+- CellProfiler
+- GIMP
+- Inkscape
+- Photoshop
+
+### Office tools
+- Pages, Keynotes, Numbers
+- MS Office
+- Google docs
+- Open office
+
+### Others
+- LaTeX
+- WEKA3
+- Cytoscape
+- VS Code
+- Data Spell
