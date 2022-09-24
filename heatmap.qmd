@@ -33,7 +33,7 @@ Figure will be generated as soon as you create the **"Create the Heatmap"** butt
 suppressMessages(library(ComplexHeatmap))
 suppressMessages(library(extrafont))
 suppressMessages(library(shiny))
-suppressMessages(library(InteractiveComplexHeatmap))
+#suppressMessages(library(InteractiveComplexHeatmap))
 ## read dataset
   selectInput("selin",
               "Please select the graph type",

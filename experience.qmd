@@ -13,6 +13,9 @@ title: "Experiences"
 #           text: GitHub
 #           href: https://github.com/JD2112
 ---
+![Experience](pics/experience1.png)
+
+
 # Work Experience/s
 - Principal Research Engineer (2020/09 onwards) \
 

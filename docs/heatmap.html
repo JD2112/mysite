@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jyotirmoy Das">
-<meta name="dcterms.date" content="2022-09-21">
+<meta name="dcterms.date" content="2022-09-24">
 
 <title>jyotirmoydas - Plots with shiny app</title>
 <style>
@@ -300,7 +300,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 21, 2022</p>
+      <p class="date">September 24, 2022</p>
     </div>
   </div>
     
@@ -326,7 +326,7 @@ cookieconsent.run({
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">library</span>(ComplexHeatmap))</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">library</span>(extrafont))</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">library</span>(shiny))</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressMessages</span>(<span class="fu">library</span>(InteractiveComplexHeatmap))</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">#suppressMessages(library(InteractiveComplexHeatmap))</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="do">## read dataset</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">selectInput</span>(<span class="st">"selin"</span>,</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>              <span class="st">"Please select the graph type"</span>,</span>
@@ -379,7 +379,7 @@ Browse...
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>               <span class="st">"Create the plot"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<button id="plot" type="button" class="btn btn-default action-button">Create the plot</button>
+<p><button id="plot" type="button" class="btn btn-default action-button">Create the plot</button></p>
 </div>
 </div>
 <div class="panel-fill panel-grid g-col-24 g-col-lg-17 pt-3 pt-lg-0">
@@ -391,7 +391,7 @@ Browse...
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>             <span class="at">width =</span> <span class="dv">600</span>, <span class="at">height =</span> <span class="dv">800</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="plot" class="shiny-plot-output" style="width:600px;height:800px;"></div>
+<p></p><div id="plot" class="shiny-plot-output" style="width:600px;height:800px;"></div><p></p>
 </div>
 </div>
 </div>
@@ -411,13 +411,13 @@ Browse...
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>  <span class="fu">sessionInfo</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>R version 4.2.1 (2022-06-23)
+<pre><code>R version 4.1.3 (2022-03-10)
 Platform: x86_64-apple-darwin17.0 (64-bit)
-Running under: macOS Big Sur ... 10.16
+Running under: macOS Big Sur/Monterey 10.16
 
 Matrix products: default
-BLAS:   /Library/Frameworks/R.framework/Versions/4.2/Resources/lib/libRblas.0.dylib
-LAPACK: /Library/Frameworks/R.framework/Versions/4.2/Resources/lib/libRlapack.dylib
+BLAS:   /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRblas.0.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib
 
 locale:
 [1] en_GB.UTF-8/en_GB.UTF-8/en_GB.UTF-8/C/en_GB.UTF-8/en_GB.UTF-8
@@ -427,36 +427,30 @@ attached base packages:
 [8] base     
 
 other attached packages:
-[1] InteractiveComplexHeatmap_1.4.0 extrafont_0.18                 
-[3] ComplexHeatmap_2.12.1           shiny_1.7.2                    
+[1] extrafont_0.18        ComplexHeatmap_2.10.0 shiny_1.7.1          
 
 loaded via a namespace (and not attached):
- [1] Rcpp_1.0.9          svglite_2.1.0       circlize_0.4.15    
- [4] png_0.1-7           clisymbols_1.2.0    digest_0.6.29      
- [7] foreach_1.5.2       mime_0.12           R6_2.5.1           
-[10] stats4_4.2.1        evaluate_0.16       httr_1.4.4         
-[13] GlobalOptions_0.1.2 rlang_1.0.4         rstudioapi_0.14    
-[16] fontawesome_0.3.0   jquerylib_0.1.4     extrafontdb_1.0    
-[19] S4Vectors_0.34.0    GetoptLong_1.0.5    rmarkdown_2.16     
-[22] webshot_0.5.3       stringr_1.4.1       htmlwidgets_1.5.4  
-[25] munsell_0.5.0       compiler_4.2.1      httpuv_1.6.5       
-[28] xfun_0.32           systemfonts_1.0.4   BiocGenerics_0.42.0
-[31] shape_1.4.6         htmltools_0.5.3     IRanges_2.30.1     
-[34] codetools_0.2-18    matrixStats_0.62.0  viridisLite_0.4.1  
-[37] crayon_1.5.1        later_1.3.0         jsonlite_1.8.0     
-[40] xtable_1.8-4        Rttf2pt1_1.3.10     lifecycle_1.0.1    
-[43] magrittr_2.0.3      scales_1.2.1        cachem_1.0.6       
-[46] cli_3.3.0           stringi_1.7.8       promises_1.2.0.1   
-[49] doParallel_1.0.17   bslib_0.4.0         xml2_1.3.3         
-[52] ellipsis_0.3.2      kableExtra_1.3.4    rjson_0.2.21       
-[55] RColorBrewer_1.1-3  iterators_1.0.14    tools_4.2.1        
-[58] glue_1.6.2          parallel_4.2.1      fastmap_1.1.0      
-[61] yaml_2.3.5          clue_0.3-61         colorspace_2.0-3   
-[64] cluster_2.1.4       rvest_1.0.3         memoise_2.0.1      
-[67] knitr_1.40          sass_0.4.2         </code></pre>
+ [1] circlize_0.4.14     shape_1.4.6         GetoptLong_1.0.5   
+ [4] xfun_0.30           bslib_0.3.1         colorspace_2.0-3   
+ [7] htmltools_0.5.2     stats4_4.1.3        yaml_2.3.5         
+[10] rlang_1.0.2         jquerylib_0.1.4     later_1.3.0        
+[13] BiocGenerics_0.40.0 RColorBrewer_1.1-3  matrixStats_0.61.0 
+[16] foreach_1.5.2       lifecycle_1.0.1     stringr_1.4.0      
+[19] htmlwidgets_1.5.4   GlobalOptions_0.1.2 codetools_0.2-18   
+[22] evaluate_0.15       knitr_1.38          IRanges_2.28.0     
+[25] fastmap_1.1.0       doParallel_1.0.17   httpuv_1.6.5       
+[28] parallel_4.1.3      Rttf2pt1_1.3.10     Rcpp_1.0.8.3       
+[31] xtable_1.8-4        promises_1.2.0.1    S4Vectors_0.32.4   
+[34] jsonlite_1.8.0      mime_0.12           rjson_0.2.21       
+[37] png_0.1-7           digest_0.6.29       stringi_1.7.6      
+[40] clue_0.3-60         cli_3.2.0           tools_4.1.3        
+[43] sass_0.4.1          magrittr_2.0.3      cluster_2.1.3      
+[46] crayon_1.5.1        extrafontdb_1.0     ellipsis_0.3.2     
+[49] rmarkdown_2.13      iterators_1.0.14    R6_2.5.1           
+[52] compiler_4.1.3     </code></pre>
 </div>
 </div>
-<p>
+
 <script type="application/shiny-prerendered" data-context="server-extras">
 ojs_define <- function(..., .session = shiny::getDefaultReactiveDomain()) {
   quos <- rlang::enquos(...)
@@ -483,16 +477,15 @@ ojs_define <- function(..., .session = shiny::getDefaultReactiveDomain()) {
   invisible()
 }
 </script>
-</p>
-<!--html_preserve-->
+ <!--html_preserve-->
 <script type="application/shiny-prerendered" data-context="dependencies">
-{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files","pkgVersion"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["selectize"]},{"type":"character","attributes":{},"value":["0.12.4"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["file"]}},"value":[{"type":"character","attributes":{},"value":["www/shared/selectize"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["js/selectize.min.js","accessibility/js/selectize-plugin-a11y.min.js"]},{"type":"character","attributes":{},"value":["css/selectize.bootstrap3.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"character","attributes":{},"value":["shiny"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["1.7.2"]}]}]}
+{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","version","src","meta","script","stylesheet","head","attachment","package","all_files"]},"class":{"type":"character","attributes":{},"value":["html_dependency"]}},"value":[{"type":"character","attributes":{},"value":["selectize"]},{"type":"character","attributes":{},"value":["0.12.4"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["href"]}},"value":[{"type":"character","attributes":{},"value":["shared/selectize"]}]},{"type":"NULL"},{"type":"character","attributes":{},"value":["js/selectize.min.js","accessibility/js/selectize-plugin-a11y.min.js"]},{"type":"character","attributes":{},"value":["css/selectize.bootstrap3.css"]},{"type":"NULL"},{"type":"NULL"},{"type":"NULL"},{"type":"logical","attributes":{},"value":[true]}]}]}
 </script>
 <!--/html_preserve-->
 <!--html_preserve-->
 
 <script type="application/shiny-prerendered" data-context="execution_dependencies">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["packages"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["packages","version"]},"class":{"type":"character","attributes":{},"value":["data.frame"]},"row.names":{"type":"integer","attributes":{},"value":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80]}},"value":[{"type":"character","attributes":{},"value":["base","BiocGenerics","bslib","cachem","circlize","cli","clisymbols","clue","cluster","codetools","colorspace","compiler","ComplexHeatmap","crayon","datasets","digest","doParallel","ellipsis","evaluate","extrafont","extrafontdb","fastmap","fontawesome","foreach","GetoptLong","GlobalOptions","glue","graphics","grDevices","grid","htmltools","htmlwidgets","httpuv","httr","InteractiveComplexHeatmap","IRanges","iterators","jquerylib","jsonlite","kableExtra","knitr","later","lifecycle","magrittr","matrixStats","memoise","methods","mime","munsell","parallel","png","promises","R6","RColorBrewer","Rcpp","rjson","rlang","rmarkdown","rstudioapi","Rttf2pt1","rvest","S4Vectors","sass","scales","shape","shiny","stats","stats4","stringi","stringr","svglite","systemfonts","tools","utils","viridisLite","webshot","xfun","xml2","xtable","yaml"]},{"type":"character","attributes":{},"value":["4.2.1","0.42.0","0.4.0","1.0.6","0.4.15","3.3.0","1.2.0","0.3-61","2.1.4","0.2-18","2.0-3","4.2.1","2.12.1","1.5.1","4.2.1","0.6.29","1.0.17","0.3.2","0.16","0.18","1.0","1.1.0","0.3.0","1.5.2","1.0.5","0.1.2","1.6.2","4.2.1","4.2.1","4.2.1","0.5.3","1.5.4","1.6.5","1.4.4","1.4.0","2.30.1","1.0.14","0.1.4","1.8.0","1.3.4","1.40","1.3.0","1.0.1","2.0.3","0.62.0","2.0.1","4.2.1","0.12","0.5.0","4.2.1","0.1-7","1.2.0.1","2.5.1","1.1-3","1.0.9","0.2.21","1.0.4","2.16","0.14","1.3.10","1.0.3","0.34.0","0.4.2","1.2.1","1.4.6","1.7.2","4.2.1","4.2.1","1.7.8","1.4.1","2.1.0","1.0.4","4.2.1","4.2.1","0.4.1","0.5.3","0.32","1.3.3","1.8-4","2.3.5"]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["packages"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["packages","version"]},"class":{"type":"character","attributes":{},"value":["data.frame"]},"row.names":{"type":"integer","attributes":{},"value":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63]}},"value":[{"type":"character","attributes":{},"value":["base","BiocGenerics","bslib","circlize","cli","clue","cluster","codetools","colorspace","compiler","ComplexHeatmap","crayon","datasets","digest","doParallel","ellipsis","evaluate","extrafont","extrafontdb","fastmap","foreach","GetoptLong","GlobalOptions","graphics","grDevices","grid","htmltools","htmlwidgets","httpuv","IRanges","iterators","jquerylib","jsonlite","knitr","later","lifecycle","magrittr","matrixStats","methods","mime","parallel","png","promises","R6","RColorBrewer","Rcpp","rjson","rlang","rmarkdown","Rttf2pt1","S4Vectors","sass","shape","shiny","stats","stats4","stringi","stringr","tools","utils","xfun","xtable","yaml"]},{"type":"character","attributes":{},"value":["4.1.3","0.40.0","0.3.1","0.4.14","3.2.0","0.3-60","2.1.3","0.2-18","2.0-3","4.1.3","2.10.0","1.5.1","4.1.3","0.6.29","1.0.17","0.3.2","0.15","0.18","1.0","1.1.0","1.5.2","1.0.5","0.1.2","4.1.3","4.1.3","4.1.3","0.5.2","1.5.4","1.6.5","2.28.0","1.0.14","0.1.4","1.8.0","1.38","1.3.0","1.0.1","2.0.3","0.61.0","4.1.3","0.12","4.1.3","0.1-7","1.2.0.1","2.5.1","1.1-3","1.0.8.3","0.2.21","1.0.2","2.13","1.3.10","0.32.4","0.4.1","1.4.6","1.7.1","4.1.3","4.1.3","1.7.6","1.4.0","4.1.3","4.1.3","0.30","1.8-4","2.3.5"]}]}]}
 </script>
 <!--/html_preserve-->
 
