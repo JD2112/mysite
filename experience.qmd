@@ -13,11 +13,10 @@ title: "Experiences"
 #           text: GitHub
 #           href: https://github.com-JD2112
 ---
-![](pics/experience1.png)
-
 
 # Work Experience/s
 - Principal Research Engineer (2020/09 onwards) \
+    Bioinformatics, Core Facility, Faculty of Medicine and Health Sciences, BKV, Linköping University, Sweden
 
 - Postdoctoral Fellow (2017/06 – 2020/08) \
     Department of Clinical and Experimental Medicine, Linköping University, Sweden
@@ -34,6 +33,10 @@ Bioinformatics Centre, Bose Institute, India
 - Research Trainee (2009/07 – 2010/05) \
 National Institute of Plant Genome Research, New Delhi, India.
 
+# Area of Expertise
+![](pics/experience1.png)
+
+# Skills
 
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages(library(plotly))

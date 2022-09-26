@@ -10,7 +10,7 @@ website:
     site: "@rstudio"
   page-navigation: true
   page-footer: 
-    left: "Copyright 2022, Jyotirmoy Das"
+    left: "Copyright© 2022, Jyotirmoy Das"
     right:
       - icon: github
         href: https://github.com
@@ -26,7 +26,7 @@ website:
     style: "docked"
     search: true
     contents:
-      - section: "About Me"
+      - section: "Professional"
         contents:
           - about.qmd
           - education.qmd
@@ -34,14 +34,8 @@ website:
           - teaching.qmd
         #  - references.qmd
           - publication.qmd
-        # listing:
-        #   contents: posts
-        #   feed: true
-        #bibliography: MyPublications.bib
-        #  - index.qmd
-        #  - basics-knitr.qmd
-        #  - basics-jupyter.qmd
-      - section: "Layout"
+          - accomplishments.qmd
+      - section: "Personal"
         #contents:
          # - layout.qmd
          # - layout-knitr.qmd
@@ -59,9 +53,9 @@ website:
 format:
   html:
     theme: 
-      light: sandstone
-      dark: darkly
-    css: styles.css
+      light: sketchy
+      dark: [darkly, skethcy]
+    css: custom.css
     toc: true
 
 
