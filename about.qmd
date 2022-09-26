@@ -25,3 +25,11 @@ I am a Principal Research Engineer in the Bioinformatics Core Facility of Facult
  - Experience in management of different projects at a time \
  - Result oriented approach and ability to learn new skills \
  - Development of user-friendly applications.
+
+## Research interests
+
+- Structural and functional genomics \
+- Epigenetics: MicroRNAs and DNA Methylation \
+- Big data analysis \
+- Short and Long read sequencing \
+- Cluster and Cloud Computing

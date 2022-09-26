@@ -11,9 +11,9 @@ title: "Experiences"
 #           href: https://twitter.com
 #         - icon: github
 #           text: GitHub
-#           href: https://github.com/JD2112
+#           href: https://github.com-JD2112
 ---
-![Experience](pics/experience1.png)
+![](pics/experience1.png)
 
 
 # Work Experience/s
@@ -34,58 +34,24 @@ Bioinformatics Centre, Bose Institute, India
 - Research Trainee (2009/07 – 2010/05) \
 National Institute of Plant Genome Research, New Delhi, India.
 
-# Computational experience
-## Programming languages
-- R
-- Perl
-- Python
-- Shell scripting 
-- HTML
-- Markdown, Quarto
-- Jupyter
 
-## OS handling
-- GNU/Linux
-- MacOS
-- HPC/CentOS
-- HPC/amazon
-- Windows
+```{r, eval=TRUE, echo=FALSE}
+suppressMessages(library(plotly))
+d <- data.frame(
+    ids =c(
+        "Computational Skills","Computational Skills - Programming","Computational Skills - OS","Computational Skills - automation","Computational Skills - Conternarization","Computational Skills - Statistical","Computational Skills - Imaging","Computational Skills - Office tools","Computational Skills - Others","Computational Skills - Programming - R","Computational Skills - Programming - Perl","Computational Skills - Programming - Python","Computational Skills - Programming - Shell scripting","Computational Skills - Programming - HTML","Computational Skills - Programming - Markdown","Computational Skills - Programming - Quarto","Computational Skills - Programming - Jupyter","Computational Skills - OS - GNU<br>Linux","Computational Skills - OS - MacOS","Computational Skills - OS - HPC<br>CentOS","Computational Skills - OS - HPC<br>amazon","Computational Skills - OS - Windows","Computational Skills - automation - NextFlow","Computational Skills - automation - SnakeMake","Computational Skills - automation - Make","Computational Skills - Conternarization - Conda<br>Anaconda","Computational Skills - Conternarization - Singularity","Computational Skills - Conternarization - Docker","Computational Skills - Conternarization - Podman","Computational Skills - Statistical - SPSS","Computational Skills - Statistical - MATLAB","Computational Skills - Statistical - GraphPad","Computational Skills - Statistical - STATA","Computational Skills - Statistical - OriginLab","Computational Skills - Imaging - ImageJ","Computational Skills - Imaging - CellProfiler","Computational Skills - Imaging - GIMP","Computational Skills - Imaging - Inkscape","Computational Skills - Imaging -Photoshop","Computational Skills - Office tools - Pages, Keynotes, Numbers","Computational Skills - Office tools - MS Office","Computational Skills - Office tools - Google docs","Computational Skills - Office tools - Open office","Computational Skills - Others - LaTeX","Computational Skills - Others - WEKA3","Computational Skills - Others - Cytoscape","Computational Skills - Others - VS Code", "Computational Skills - Others - DataSpell"
+        ),
+    labels = c( 
+        "Computational Skills","Programming","OS","automation","Contenarization","Statistical","Imaging","Office tools","Others","R","Perl","Python","Shell scripting","HTML","Markdown","Quarto","Jupyter","GNU<br>Linux","MacOS","HPC<br>CentOS","HPC<br>amazon","Windows","NextFlow","SnakeMake","Make","Conda<br>Anaconda","Singularity","Docker","Podman","SPSS","MATLAB","GraphPad","STATA","OriginLab","ImageJ","CellProfiler","GIMP","Inkscape","Photoshop","Pages, Keynotes, Numbers","MS Office","Google docs","Open office","LaTeX","WEKA3","Cytoscape","VS Code","DataSpell"
+        ),
+    parents = c(
+        "","Computational Skills","Computational Skills","Computational Skills","Computational Skills","Computational Skills","Computational Skills","Computational Skills","Computational Skills","Computational Skills - Programming","Computational Skills - Programming","Computational Skills - Programming","Computational Skills - Programming","Computational Skills - Programming","Computational Skills - Programming","Computational Skills - Programming","Computational Skills - Programming","Computational Skills - OS","Computational Skills - OS","Computational Skills - OS","Computational Skills - OS","Computational Skills - OS","Computational Skills - automation","Computational Skills - automation","Computational Skills - automation","Computational Skills - Conternarization","Computational Skills - Conternarization","Computational Skills - Conternarization","Computational Skills - Conternarization","Computational Skills - Statistical","Computational Skills - Statistical","Computational Skills - Statistical","Computational Skills - Statistical","Computational Skills - Statistical","Computational Skills - Imaging","Computational Skills - Imaging","Computational Skills - Imaging","Computational Skills - Imaging","Computational Skills - Imaging","Computational Skills - Office tools","Computational Skills - Office tools","Computational Skills - Office tools","Computational Skills - Office tools","Computational Skills - Others","Computational Skills - Others","Computational Skills - Others","Computational Skills - Others","Computational Skills - Others"
+        ),
+    stringsAsFactors = FALSE
+)
 
-## Pipeline automation
-- NextFlow
-- SnakeMake
-- Make
+fig <- plot_ly(d, ids = ~ids, labels = ~labels, parents = ~parents, type = 'sunburst')
 
-## Container/VM handling
-- Conda/Anaconda
-- Singularity
-- Docker
-- Podman
+fig
 
-## Other skills
-### Statistical
-- SPSS from IBM
-- MATLAB
-- GraphPad
-- STATA
-- OriginLab
-
-### Imaging softwares
-- ImageJ
-- CellProfiler
-- GIMP
-- Inkscape
-- Photoshop
-
-### Office tools
-- Pages, Keynotes, Numbers
-- MS Office
-- Google docs
-- Open office
-
-### Others
-- LaTeX
-- WEKA3
-- Cytoscape
-- VS Code
-- Data Spell
+```

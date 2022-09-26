@@ -11,7 +11,7 @@
     "href": "publication.html",
     "title": "Publications",
     "section": "",
-    "text": "Thesis title: In-silico studies of microRNAs regulation in higher eukaryotes from the perspective of molecular evolution.\nTopics of Reasearch: Bioinformatics, Molecular Evolution, MicroRNAs, Human Diseases, Epigenetics.\nSupervisor: Prof. T.C. Ghosh\nWork place: Bose Institute (J.C. Bose Institute), Kolkata, India\nUniversity: Maulana Abul Kalam Azad University of Technology (formerly known as West Bengal University of Technology), West Bengal, India."
+    "text": "Thesis title:  In-silico studies of microRNAs regulation in higher eukaryotes from the perspective of molecular evolution.\nTopics of Reasearch: Bioinformatics, Molecular Evolution, MicroRNAs, Human Diseases, Epigenetics.\nSupervisor: Prof. T.C. Ghosh\nWork place: Bose Institute (J.C. Bose Institute), Kolkata, India\nUniversity: Maulana Abul Kalam Azad University of Technology (formerly known as West Bengal University of Technology), West Bengal, India."
   },
   {
     "objectID": "publication.html#section",
@@ -81,49 +81,21 @@
     "href": "experience.html",
     "title": "Experiences",
     "section": "",
-    "text": "Experience"
-  },
-  {
-    "objectID": "experience.html#programming-languages",
-    "href": "experience.html#programming-languages",
-    "title": "Experiences",
-    "section": "Programming languages",
-    "text": "Programming languages\n\nR\nPerl\nPython\nShell scripting\nHTML\nMarkdown, Quarto\nJupyter"
-  },
-  {
-    "objectID": "experience.html#os-handling",
-    "href": "experience.html#os-handling",
-    "title": "Experiences",
-    "section": "OS handling",
-    "text": "OS handling\n\nGNU/Linux\nMacOS\nHPC/CentOS\nHPC/amazon\nWindows"
-  },
-  {
-    "objectID": "experience.html#pipeline-automation",
-    "href": "experience.html#pipeline-automation",
-    "title": "Experiences",
-    "section": "Pipeline automation",
-    "text": "Pipeline automation\n\nNextFlow\nSnakeMake\nMake"
-  },
-  {
-    "objectID": "experience.html#containervm-handling",
-    "href": "experience.html#containervm-handling",
-    "title": "Experiences",
-    "section": "Container/VM handling",
-    "text": "Container/VM handling\n\nConda/Anaconda\nSingularity\nDocker\nPodman"
-  },
-  {
-    "objectID": "experience.html#other-skills",
-    "href": "experience.html#other-skills",
-    "title": "Experiences",
-    "section": "Other skills",
-    "text": "Other skills\n\nStatistical\n\nSPSS from IBM\nMATLAB\nGraphPad\nSTATA\nOriginLab\n\n\n\nImaging softwares\n\nImageJ\nCellProfiler\nGIMP\nInkscape\nPhotoshop\n\n\n\nOffice tools\n\nPages, Keynotes, Numbers\nMS Office\nGoogle docs\nOpen office\n\n\n\nOthers\n\nLaTeX\nWEKA3\nCytoscape\nVS Code\nData Spell"
+    "text": "Work Experience/s\n\nPrincipal Research Engineer (2020/09 onwards)\n\nPostdoctoral Fellow (2017/06 – 2020/08)\nDepartment of Clinical and Experimental Medicine, Linköping University, Sweden\nSenior Research Fellow (2014/01 – 2017/01)\nDST-INSPIRE (Govt. of India), Bioinformatics Centre, Bose Institute, India\nJunior Research Fellow (2012/01 – 2014/01)\nDST-INSPIRE (Govt. of India), Bioinformatics Centre, Bose Institute, India\nInstitute Fellow (2010/09 – 2012/01)\nBioinformatics Centre, Bose Institute, India\nResearch Trainee (2009/07 – 2010/05)\nNational Institute of Plant Genome Research, New Delhi, India."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "ME",
     "section": "",
-    "text": "Expertise in analysis and interpretation of large-scale data\n\nProven expertise in different database handling and analysing information \n\nExperience in open source software system\n\nExpertise on short-read and long-read sequencing data analysis and interpretation\n\nHigh performance and cloud computing experience\n\nExperience in management of different projects at a time\n\nResult oriented approach and ability to learn new skills\n\nDevelopment of user-friendly applications."
+    "text": "I am a Principal Research Engineer in the Bioinformatics Core Facility of Faculty of Medical and Health Sciences at Linkoping University, Sweden and working also with Clinical Genomics, Linköping - a Science for Life (SciLifeLab) node, Sweden. I am engaged with developing scripts to automatise and analysed different biological big data analysis including human DNA methylation data from clinical samples using Illumina arrays, whole-genome sequencing, Nanopore long-read sequencing, Twists’ targeted panels with R, python, tidyverse and visualisation of results."
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "ME",
+    "section": "Research interests",
+    "text": "Research interests\n\nStructural and functional genomics\n\nEpigenetics: MicroRNAs and DNA Methylation\n\nBig data analysis\n\nShort and Long read sequencing\n\nCluster and Cloud Computing"
   },
   {
     "objectID": "education.html",
