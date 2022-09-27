@@ -1,0 +1,36 @@
+---
+title: "Projects"
+format:
+    html:
+        css: custom.css
+#subtitle: "BIOINFORMATICIST"
+# about:
+#     template: trestles
+#     image: pics/portfolio.png
+#     image-shape: round
+#     links: 
+#         - icon: twitter
+#           text: twitter
+#           href: https://twitter.com
+#         - icon: github
+#           text: GitHub
+#           href: https://github.com/JD2112
+---
+# Upcoming
+
+# Ongoing
+
+# Past projects
+## Postdoctoral projects
+### [Machine Learning algorithm to identify bio-signatures from tuberculosis-exposed and non-exposed individuals.](postdoc1.qmd)
+
+
+### [Identification of Differential Methylation patterns of tuberculosis patients, household contacts and healthy participants.](postdoc1.qmd)
+
+
+### [Reduced Representation of Bisulfite Sequencing (RRBS) data analysis from tuberculosis-exposed samples in different cell types](postdoc1.qmd)
+
+
+## Doctoral projects
+
+
