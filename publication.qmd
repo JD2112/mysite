@@ -32,7 +32,13 @@ format:
 
 # Manuscript in submitted/under review
 
-Volpe, M & **Das, J**. <span class="word"> methylR: a graphical interface for comprehensive DNA methylation array data analysis.</span> 2022 
+1. Volpe, M & **Das, J**. <span class="word"> methylR: a graphical interface for comprehensive DNA methylation array data analysis.</span> 2022 **(Under review in Bioinformatics, Oxford)**
+
+2. Verma, D; Kasic, NK; Jeppsson, F; Bivik Eding, C; Lysiak, M; Fekri, S; **Das, J**; Enerbäck, C. <span class="word"> Differential DNA methylation of miRNA-encoding genes in psoriatic epidermis highlights the Wnt pathway.</span> 2022 **(Under revised and resubmitted in Journal of Investigative Dermatology)**
+
+3. Lundquist, H; Andersson H; Chew, MS; **Das, J**; Turkina, MV; Welin A. <span class="word">The Olfm4-defined human neutrophil subsets differ in proteomic profile in healthy individuals and patients with septic shock.</span> 2022. **(Under review Journal of Innate Immunity)**
+
+4. Braian, C; Karlsson, L; **Das, J**; Lerm M. <span class="word">Selected β-glucans act as immune-training agents by improving anti-mycobacterial activity in human macrophages.</span> 2022. **(submitted to Journal of Innate Immunity)**
 
 # Published in peer-reviewed journals
 
@@ -100,7 +106,7 @@ Huoman J, Sayyab S, Apostolou E, Karlsson L, Porcile L, Rizwan M, Sharma S, **Da
 :::
 
 ::: {.column width="75%"}
-Karlsson L, **Das J**, Nilsson M, Tyrén A, Pehrson I, Idh N, Sayyab S, Paues J, Ugarte-Gil C, Méndez-Aranda M, Lerm M. <span class="word">A differential DNA methylome signature of pulmonary immune cells from individuals converting to latent tuberculosis infection.</span> Scientific reports. 2021 Sep 30;11(1):1-3. \
+Karlsson L, **Das J**, Nilsson M, Tyrén A, Pehrson I, Idh N, Sayyab S, Paues J, Ugarte-Gil C, Méndez-Aranda M, Lerm M. <span class="word">A differential DNA methylome signature of pulmonary immune cells from individuals converting to latent tuberculosis infection.</span> Scientific Reports. 2021 Sep 30;11(1):1-3. \
 [Link to the publication](https://www.nature.com/articles/s41598-021-98542-3.pdf){.external target="_blank"} 
 :::
 
@@ -115,7 +121,7 @@ Karlsson L, **Das J**, Nilsson M, Tyrén A, Pehrson I, Idh N, Sayyab S, Paues J,
 :::
 
 ::: {.column width="75%"}
-Kalsum S, Andersson B, **Das J**, Schön T, Lerm M. <span class="word">A high-throughput screening assay based on automated microscopy for monitoring antibiotic susceptibility of Mycobacterium tuberculosis phenotypes.</span> BMC microbiology. 2021 Dec;21(1):1-4. \
+Kalsum S, Andersson B, **Das J**, Schön T, Lerm M. <span class="word">A high-throughput screening assay based on automated microscopy for monitoring antibiotic susceptibility of Mycobacterium tuberculosis phenotypes.</span> BMC Microbiology. 2021 Dec;21(1):1-4. \
 [Link to the publication](https://bmcmicrobiol.biomedcentral.com/counter/pdf/10.1186/s12866-021-02212-3.pdf){.external target="_blank"} 
 :::
 

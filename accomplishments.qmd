@@ -39,7 +39,24 @@ format:
 
 ::: {.column width="20%"}
 
-![](pics/JyotirmoyPoster_JIM2022.png)
+[![](pics/GMSmicro.png)](http://gmsartic.netlify.app){.external target="_blank"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="75%"}
+**2022** \
+*Oral presentation* on <span class="word">GMS-Artic: A containerized Nextflow pipeline for detecting Pangolin typing by analysing SARS-CoV-2 whole genome from short and long read sequence reads</span> at Karolinska Institute, Sweden organised by Genomic Medicine, Sweden.
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+![](pics/JyotirmoyPoster_JIM2022.png){ width="150px" height="150px"}
 :::
 
 ::: {.column width="5%"}
