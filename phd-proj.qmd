@@ -1,0 +1,38 @@
+---
+title: "phd-projects"
+format:
+    html:
+        css: custom.css
+#subtitle: "BIOINFORMATICIST"
+# about:
+#     template: trestles
+#     image: pics/portfolio.png
+#     image-shape: round
+#     links: 
+#         - icon: twitter
+#           text: twitter
+#           href: https://twitter.com
+#         - icon: github
+#           text: GitHub
+#           href: https://github.com/JD2112
+---
+
+## Complex-forming proteins escape the robust regulations of miRNA in human.
+
+Most of the proteins carry out their functions by participating in protein complexes. Recently, miRNAs are identified as promising post-transcriptional regulators that influence a large proportion of genes in higher eukaryotes. We aim to understand the role of miRNA in the regulation of human proteins that are present in
+protein complexes. Here, we show that robust regulations of miRNA are absent in human complex forming proteins.
+Moreover, the numbers of miRNA hits cannot direct the
+evolutionary fate of complex-forming proteins independently.
+However, the duplicated complex-forming proteins having a
+severe effect on organismal fitness are profoundly targeted by miRNA, probably for reducing the chances of dosage imbalance.
+
+## Insights into the miRNA regulations in human disease genes.
+
+MicroRNAs are a class of short non-coding RNAs derived from
+either cellular or viral transcripts that act post-transcriptionally to regulate mRNA stability and translation. In recent days, increasing numbers of miRNAs have been shown to be involved in the development and progression of a variety of diseases. We, therefore, intend to enumerate miRNA targets in several known disease classes to explore the degree of miRNA regulations on them which is unexplored till date. Here, we noticed that miRNA hits in cancer genes are remarkably higher than other diseases in human. Our observation suggests that UTRs and the transcript length of cancer related genes have a significant contribution in higher susceptibility to miRNA regulation. Moreover, gene duplication, mRNA stability, AREScores and evolutionary rate were likely to have implications for more miRNA targeting on cancer genes. Consequently, the regression analysis has
+confirmed that the AREScores plays most important role in detecting miRNA targets on disease genes. Interestingly, we observed that epigenetic modifications like CpG methylation and histone modification are less effective than miRNA regulations in controlling the gene expression of cancer genes. The intrinsic properties of cancer genes studied here, for higher miRNA targeting will enhance the knowledge on cancer gene regulation.
+
+## Explicating the role of old miRNAs in human disease progression
+
+Most of the microRNAs (miRNAs) are mainly described as conserved in the evolutionary timescales, although some miRNAs are species-specific in nature. The conserved “old” miRNAs and “newly” emerged miRNAs may have played some differential roles in human disease progression. However, modulating the level of expression of human disease genes by new and old miRNAs has not been testified yet. Here, we identified 1,190 new and 97 old miRNAs in humans and showed that these old miRNAs play more influential roles in human
+disease gene expression levels than the new ones. Additionally, we also performed our analyses on four other mammals to find whether a similar pattern of miRNA regulation is followed there as that showed by old miRNAs in humans. Furthermore, our analysis indicated that miRNAs targeting is dominant over other genomic regulators in controlling human disease gene expression levels. Our study demonstrated that the early evolutionary miRNAs are retained in the organisms to do some specific functions despite of the fact that more number of genes are being targeted by new miRNAs.

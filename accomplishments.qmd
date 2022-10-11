@@ -21,8 +21,6 @@ format:
  - [Prof. Peter Söderkvist, Linköping University](https://liu.se/medarbetare/petso43){.external target="_blank"}
  - [Prof. Thomas Schön, Kalmar University](https://liu.se/medarbetare/thosc49){.external target="_blank"}
  - [Dr. Deepti Verma,  Linköping University](https://liu.se/medarbetare/deeve22){.external target="_blank"}
- - [Dr. Lasse Jensen, Linköping University](https://liu.se/medarbetare/larje86){.external target="_blank"}
- - [Dr. Ahmed Elserafy, Linköping University](https://liu.se/medarbetare/ahmel66){.external target="_blank"}
  - [Dr. Amanda Welin, Linköping University](https://liu.se/en/employee/amawe34){.external target="_blank"}
  - [Dr. Kamalika Sen, Bose Institute](http://www.jcbose.ac.in/research-scientist-details/kamalika-sen){.external target="_blank"}
  - [Dr. Hirak Patra, University of Cambridge](https://www.ceb.cam.ac.uk/news/dr-hirak-patra-join-ucl-associate-professor){.external target="_blank"}

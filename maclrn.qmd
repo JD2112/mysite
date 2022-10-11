@@ -16,9 +16,13 @@ format:
 #           text: GitHub
 #           href: https://github.com/JD2112
 ---
-# Upcoming
+# Upcoming projects
+Check on [GitHub](https://github.com/JD2112).
 
 # Ongoing
+
+## [methylR: a single shiny solution from sequencer data to pathway analysis](https://github.com/JD2112/methylr){.external target="_blank"}
+
 
 # Past projects
 ## Postdoctoral projects
@@ -33,4 +37,9 @@ format:
 
 ## Doctoral projects
 
+### [Complex-forming proteins escape the robust regulations of miRNA in human](phd-proj.qmd)
+
+### [Insights into the miRNA regulations in human disease genes](phd-proj.qmd)
+
+### [Explicating the role of old miRNAs in human disease progression](phd-proj.qmd)
 

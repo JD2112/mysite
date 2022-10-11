@@ -1,0 +1,23 @@
+---
+title: "Current Projects"
+format:
+    html:
+        css: custom.css
+#subtitle: "BIOINFORMATICIST"
+# about:
+#     template: trestles
+#     image: pics/portfolio.png
+#     image-shape: round
+#     links: 
+#         - icon: twitter
+#           text: twitter
+#           href: https://twitter.com
+#         - icon: github
+#           text: GitHub
+#           href: https://github.com/JD2112
+---
+
+### methylR: a single shiny solution from sequencer data to pathway analysis
+[methylR: a single shiny solution from sequencer data to pathway analysis](https://github.com/JD2112/methylr){.external target="_blank"}
+
+we introduce methylR, a complete pipeline for the analysis of both 450K and EPIC Illumina arrays which not only offers data visualization and normalization but also provide additional features such as the annotation of the genomic features resulting from the analysis, pairwise comparisons of DMCs with different graphical representation plus functional and pathway enrichment as downstream analysis, all packed in a minimal, elegant and intuitive graphical user interface which brings the analysis of array DNA methylation data.
