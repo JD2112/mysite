@@ -23,6 +23,9 @@ Check on [GitHub](https://github.com/JD2112).
 
 ## [methylR: a single shiny solution from sequencer data to pathway analysis](https://github.com/JD2112/methylr){.external target="_blank"}
 
+## [GMS-Artic: A containerized NextFlow pipeline for detecting Pangolin Typing by analysing SARS-CoV-2 whole genome from short and long sequence reads](https://github.com/JD2112/gms-artic){.external target="_blank"}
+
+## 
 
 # Past projects
 ## Postdoctoral projects
@@ -35,6 +38,14 @@ Check on [GitHub](https://github.com/JD2112).
 ### [Reduced Representation of Bisulfite Sequencing (RRBS) data analysis from tuberculosis-exposed samples in different cell types](postdoc1.qmd)
 
 
+### [Alveolar cell type deconvolution](https://github.com/JD2112/Alveolar-Cell-Type-Deconvolution){.external target="_blank"}
+
+### [SARS-CoV-2 and epigenetics]
+
+### [Image Processing with MATLAB](https://github.com/JD2112/Image-Processing-MATLAB){.external target="_blank"}
+
+### 
+
 ## Doctoral projects
 
 ### [Complex-forming proteins escape the robust regulations of miRNA in human](phd-proj.qmd)
@@ -43,3 +54,4 @@ Check on [GitHub](https://github.com/JD2112).
 
 ### [Explicating the role of old miRNAs in human disease progression](phd-proj.qmd)
 
+### [ceRNA networks in hCML and hAML]
