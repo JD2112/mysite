@@ -12,10 +12,28 @@ website:
   page-footer: 
     left: "Copyright© 2022, Jyotirmoy Das"
     right:
-      - icon: github
-        href: https://github.com
-      - icon: twitter
-        href: https://twitter.com
+      - icon: slack
+        href: https://app.slack.com/client/TUAD6JECU/CUAT3FRKP
+      - icon: box-fill
+        text: DockerHub
+        href: https://hub.docker.com/u/jd21
+      - icon: box-fill
+        text: Google Scholar
+        href: https://scholar.google.co.in/citations?user=IMBYOv8AAAAJ&hl=en
+      - icon: box-fill
+        text: ResearchGate
+        href: https://www.researchgate.net/profile/Jyotirmoy-Das-3
+      - icon: linkedin
+        href: https://www.linkedin.com/in/dasjyotirmoy/
+      - icon: box-fill
+        text: ORCiD
+        href: https://orcid.org/0000-0002-5649-4658
+      - icon: box-fill
+        text: Scopus
+        href: https://www.scopus.com/authid/detail.uri?authorId=55764683900
+      - icon: box-fill
+        text: Loop
+        href: https://loop.frontiersin.org/people/1519976/overview
     center: "Created with Quarto"
   title: "jyotirmoydas"
   

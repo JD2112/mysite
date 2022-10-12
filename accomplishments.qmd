@@ -7,14 +7,15 @@ format:
 ---
 
 # Invited Reviewer of Journals
- - Frontiers in Genetics
- - Peer J
- - IJERPH
- - International Journal of Molecular Sciences
- - Genomics
- - Genes & Genomics
- - Cancer Management and Research
- - Journal of Biomolecular Structure & Dynamics
+ - Frontiers in Genetics - 1
+ - Peer J - 1
+ - IJERPH - 1
+ - International Journal of Molecular Sciences - 3
+ - Genomics - 2
+ - Genes & Genomics - 1
+ - Cancer Management and Research - 2
+ - Journal of Biomolecular Structure & Dynamics - 1
+ - Nutrients - 1
 
 # Collaborations
  - [Prof. Mika Gustafsson, Linköping University](https://liu.se/medarbetare/mikgu75){.external target="_blank"}
