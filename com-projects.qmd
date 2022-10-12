@@ -1,0 +1,24 @@
+---
+title: "completed-projects"
+format:
+    html:
+        css: custom.css
+        link-external-newwindow: true
+#subtitle: "BIOINFORMATICIST"
+# about:
+#     template: trestles
+#     image: pics/portfolio.png
+#     image-shape: round
+#     links: 
+#         - icon: twitter
+#           text: twitter
+#           href: https://twitter.com
+#         - icon: github
+#           text: GitHub
+#           href: https://github.com/JD2112
+---
+1. with Deepti / Charlotta
+2. with Hirak Patra
+3. with Amanda Welin
+4. with Peter Söderkvist
+5.

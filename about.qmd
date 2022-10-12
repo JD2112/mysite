@@ -12,6 +12,9 @@ about:
         - icon: github
           text: GitHub
           href: https://github.com/JD2112
+        - icon: envelope-check-fill
+          text: E-mail
+          href: mailto:jyotirmoy21@gmail.com
 ---
 
 I am a Principal Research Engineer in the Bioinformatics Core Facility of Faculty of Medical and Health Sciences at Linkoping University, Sweden and working also with Clinical Genomics, Linköping - a Science for Life (SciLifeLab) node, Sweden. I am engaged with developing scripts to automatise and analysed different biological big data analysis including human DNA methylation data from clinical samples using **Illumina arrays**, **whole-genome sequencing**, **Nanopore long-read sequencing**, **Twists’ targeted panels** with *R*, *python*, *tidyverse* and visualisation of results. \

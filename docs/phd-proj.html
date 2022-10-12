@@ -161,12 +161,17 @@ cookieconsent.run({
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./curr-proj.html" class="sidebar-item-text sidebar-link">Current Projects</a>
+  <a href="./curr-proj.html" class="sidebar-item-text sidebar-link">Current-projects</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./postdoc1.html" class="sidebar-item-text sidebar-link">postdoc</a>
+  <a href="./com-projects.html" class="sidebar-item-text sidebar-link">completed-projects</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./postdoc1.html" class="sidebar-item-text sidebar-link">postdoc-projects</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -211,10 +216,16 @@ cookieconsent.run({
 <section id="complex-forming-proteins-escape-the-robust-regulations-of-mirna-in-human." class="level2">
 <h2 class="anchored" data-anchor-id="complex-forming-proteins-escape-the-robust-regulations-of-mirna-in-human.">Complex-forming proteins escape the robust regulations of miRNA in human.</h2>
 <p>Most of the proteins carry out their functions by participating in protein complexes. Recently, miRNAs are identified as promising post-transcriptional regulators that influence a large proportion of genes in higher eukaryotes. We aim to understand the role of miRNA in the regulation of human proteins that are present in protein complexes. Here, we show that robust regulations of miRNA are absent in human complex forming proteins. Moreover, the numbers of miRNA hits cannot direct the evolutionary fate of complex-forming proteins independently. However, the duplicated complex-forming proteins having a severe effect on organismal fitness are profoundly targeted by miRNA, probably for reducing the chances of dosage imbalance.</p>
+<p><strong><span class="word3">Related publication</span></strong>:<br>
+Das J, Chakraborty S, Podder S, Ghosh TC. <span class="word">Complex-forming proteins escape the robust regulations of miRNA in human</span>. FEBS letters. 2013 Jul 11;587(14):2284-7.<br>
+<a href="https://www.sciencedirect.com/science/article/pii/S0014579313004419" class="external" target="_blank">Link to the publication</a></p>
 </section>
 <section id="insights-into-the-mirna-regulations-in-human-disease-genes." class="level2">
 <h2 class="anchored" data-anchor-id="insights-into-the-mirna-regulations-in-human-disease-genes.">Insights into the miRNA regulations in human disease genes.</h2>
 <p>MicroRNAs are a class of short non-coding RNAs derived from either cellular or viral transcripts that act post-transcriptionally to regulate mRNA stability and translation. In recent days, increasing numbers of miRNAs have been shown to be involved in the development and progression of a variety of diseases. We, therefore, intend to enumerate miRNA targets in several known disease classes to explore the degree of miRNA regulations on them which is unexplored till date. Here, we noticed that miRNA hits in cancer genes are remarkably higher than other diseases in human. Our observation suggests that UTRs and the transcript length of cancer related genes have a significant contribution in higher susceptibility to miRNA regulation. Moreover, gene duplication, mRNA stability, AREScores and evolutionary rate were likely to have implications for more miRNA targeting on cancer genes. Consequently, the regression analysis has confirmed that the AREScores plays most important role in detecting miRNA targets on disease genes. Interestingly, we observed that epigenetic modifications like CpG methylation and histone modification are less effective than miRNA regulations in controlling the gene expression of cancer genes. The intrinsic properties of cancer genes studied here, for higher miRNA targeting will enhance the knowledge on cancer gene regulation.</p>
+<p><strong><span class="word3">Related publication</span></strong>:<br>
+Das J, Podder S, Ghosh TC. <span class="word">Insights into the miRNA regulations in human disease genes. BMC genomics</span>. 2014 Dec;15(1):1-7.<br>
+<a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-1010" class="external" target="_blank">Link to the publication</a></p>
 </section>
 <section id="explicating-the-role-of-old-mirnas-in-human-disease-progression" class="level2">
 <h2 class="anchored" data-anchor-id="explicating-the-role-of-old-mirnas-in-human-disease-progression">Explicating the role of old miRNAs in human disease progression</h2>
@@ -433,12 +444,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return popup.innerHTML;
     });
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./postdoc1.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">postdoc</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">postdoc-projects</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

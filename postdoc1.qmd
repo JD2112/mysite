@@ -1,8 +1,9 @@
 ---
-title: "postdoc"
+title: "postdoc-projects"
 format:
     html:
         css: custom.css
+        link-external-newwindow: true
 #subtitle: "BIOINFORMATICIST"
 # about:
 #     template: trestles
@@ -16,7 +17,7 @@ format:
 #           text: GitHub
 #           href: https://github.com/JD2112
 ---
-## Machine Learning algorithm to identify bio-signatures from tuberculosis-exposed and non-exposed individuals.
+## <span class="word2">Machine Learning algorithm to identify bio-signatures from tuberculosis-exposed and non-exposed individuals.</span>
 
 Biology is a complex system and human with their more than three billion base-pairs is of course a too complex system. The story doesn't end with the number of base-pairs or nucleotides, within it there is another large more complexity society where everybody has got some works to support those three billion system.
 
@@ -30,7 +31,13 @@ Why do this?
 
 - Machine learning is used to develop the biosignature from the epigenetics data.
 
-## Identification of Differential Methylation patterns of tuberculosis patients, household contacts and healthy participants.
+**<span class="word3">Related publication</span>**: \
+Das, J., Idh, N., Pehrson, I., Paues, J., & Lerm, M. (2021). <span class="word">A DNA methylome biosignature in alveolar macrophages from TB-exposed individuals predicts exposure to mycobacteria</span>. medrxiv. \
+[Link to the publication](https://www.medrxiv.org/content/10.1101/2021.03.16.21253732v1){.external target="_blank"}
+
+Lerm, M., Das, J. (2022) <span class="word">Biomarker for detection of mycobacterial exposure and infection</span>. WO patent. [<span class="word3">WO2022119495A1</span>](https://patents.google.com/patent/WO2022169394A1/en){.external target="_blank"}
+
+## <span class="word2">Identification of Differential Methylation patterns of tuberculosis patients, household contacts and healthy participants.</span>
 
 DNA methylation is one of the epigenetic changes that regulates the function of the genes in human as well as other living organisms. The cytosine base of the DNA molecules sometimes get methylated with one methyl (-CH3) group at its 5′ carbon molecule. In a particular position, the methylation varies due to their different presence in different cells.
 
@@ -47,7 +54,15 @@ Why do this?
 DNA methylation is variable and also depends on the external environments. Exposure to different environmental conditions changes the pattern of the methylation. In this project, the hypothesis is that there is a different methylation pattern between individuals when they are either exposed or non-exposed to tuberculosis.
 The difference in the methylation pattern among differently exposed individuals can lead to the identification of the responsible genes or pathways that helps to the fast tuberculosis diagnosis as well as the probable treatment procedures.
 
-## Reduced Representation of Bisulfite Sequencing (RRBS) data analysis from tuberculosis-exposed samples in different cell types
+
+**<span class="word3">Related publication</span>**: \
+Pehrson, I., Braian, C., Karlsson, L., Idh, N., Danielsson, E.K., Andersson, B., Paues, J., Das, J. and Lerm, M., 2021. <span class="word">DNA methylation profiling of immune cells from tuberculosis-exposed individuals overlaps with BCG-induced epigenetic changes and correlates with the emergence of anti-mycobacterial'corralling cells'</span>. medRxiv. \
+[Link to the publication](https://www.medrxiv.org/content/10.1101/2021.09.01.21262945v1.full.pdf){.external target="_blank"}
+
+Pehrson, I., Das, J., Idh, N., Karlsson, L., Rylander, H., af Segerstad, H.H., Reuterswärd, E., Marttala, E., Paues, J., Méndez-Aranda, M. and Ugarte-Gil, C., 2021. <span class="word">DNA methylomes derived from alveolar macrophages display distinct patterns in latent tuberculosis-implication for interferon gamma release assay status determination</span>. MedRxiv. \ 
+[Link to the publication](https://www.medrxiv.org/content/10.1101/2021.03.16.21253725v1.full.pdf){.external target="_blank"}
+
+## <span class="word2">Reduced Representation of Bisulfite Sequencing (RRBS) data analysis from tuberculosis-exposed samples in different cell types. </span>
 
 A number of methods are available to identify the genome-wide DNA methylation in human and other organisms. Reduced representation of bisulfite sequencing (RRBS) is one of these methods to identify the genome-wide DNA methylation using the MspI enzyme library preparation and whole-genome sequencing.
 
@@ -56,3 +71,22 @@ Bisulfite converted DNA preserves the cytosine bases which are methylated in the
 Why do this?
 
 Genome-wide methylation analysis reveals the intergenic regions along with the genic regions and also identifies methylation patterns other than CpG islands. These illustrates huge scope to identify the new features of the causing disease patterns among the individuals.
+
+**<span class="word3">Related publication</span>**: \
+Karlsson L, Das J, Nilsson M, Tyrén A, Pehrson I, Idh N, Sayyab S, Paues J, Ugarte-Gil C, Méndez-Aranda M, Lerm M. <span class="word">A differential DNA methylome signature of pulmonary immune cells from individuals converting to latent tuberculosis infection</span>. Scientific reports. 2021 Sep 30;11(1):1-3. \ 
+[Link to the publication](https://www.nature.com/articles/s41598-021-98542-3){.external target="_blank"}
+
+## <span class="word2">SARS-CoV-2 and DNA Methylation</span>
+[<span class="word4">GitHub link</span>](https://github.com/Lerm-Lab/COVID-19){.external target="_blank"}
+
+**<span class="word3">Related publication</span>**: \
+Huoman J, Sayyab S, Apostolou E, Karlsson L, Porcile L, Rizwan M, Sharma S, Das J, Rosén A, Lerm M. <span class="word">Epigenetic rewiring of pathways related to odour perception in immune cells exposed to SARS-CoV-2 in vivo and in vitro</span>. Epigenetics. 2022 Jun 26:1-7. \ 
+[Link to the publication](https://www.tandfonline.com/doi/full/10.1080/15592294.2022.2089471){.external target="_blank"}
+
+Maria Lerm, Jyotirmoy Das, Shumaila Sayyab. <span class="word">Method for determining sars-cov-2 exposure with or without remaining symptoms</span>. 2022. [<span class="word3">WO2022119495A1</span>](https://patents.google.com/patent/WO2022119495A1/en?oq=WO2022119495A1){.external target="_blank"}
+
+## <span class="word2">Image Processing with MATLAB<span>
+[<span class="word4">GitHub link</span>](https://github.com/JD2112/Image-Processing-MATLAB){.external target="_blank"}
+
+**<span class="word3">Related publication</span>**: \
+Kalsum S, Andersson B, Das J, Schön T, Lerm M. <span class="word">A high-throughput screening assay based on automated microscopy for monitoring antibiotic susceptibility of Mycobacterium tuberculosis phenotypes</span>. BMC microbiology. 2021 Dec;21(1):1-4.

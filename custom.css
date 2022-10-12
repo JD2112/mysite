@@ -5,6 +5,28 @@
    
 }
 
+.word2 {
+   color: rebeccapurple;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-style: normal;
+   
+}
+
+
+.word3 {
+   color: rgb(238, 119, 14);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-style: normal;
+   
+}
+
+.word4 {
+   color: rgb(2, 39, 245);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-style: normal;
+   
+}
+
 .emphasized {
    font-size: 1.4em;
 }

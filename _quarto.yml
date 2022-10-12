@@ -41,6 +41,7 @@ website:
       contents: 
         - maclrn.qmd
         - curr-proj.qmd
+        - com-projects.qmd
         - postdoc1.qmd
         - phd-proj.qmd
       tools:

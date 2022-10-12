@@ -3,6 +3,7 @@ title: "Projects"
 format:
     html:
         css: custom.css
+        link-external-newwindow: true
 #subtitle: "BIOINFORMATICIST"
 # about:
 #     template: trestles
@@ -21,37 +22,48 @@ Check on [GitHub](https://github.com/JD2112).
 
 # Ongoing
 
-## [methylR: a single shiny solution from sequencer data to pathway analysis](https://github.com/JD2112/methylr){.external target="_blank"}
+### [<span class="word2">methylR: a single shiny solution from sequencer data to pathway analysis</span>](curr-proj.qmd)
+[<span class="word4">GitHub link</span>](https://github.com/JD2112/methylr){.external target="_blank"}
 
-## [GMS-Artic: A containerized NextFlow pipeline for detecting Pangolin Typing by analysing SARS-CoV-2 whole genome from short and long sequence reads](https://github.com/JD2112/gms-artic){.external target="_blank"}
+### [<span class="word2">GMS-Artic: A containerized NextFlow pipeline for detecting Pangolin Typing by analysing SARS-CoV-2 whole genome from short and long sequence reads</span>](curr-proj.qmd) 
+[<span class="word4">GitHub link</span>](https://github.com/JD2112/gms-artic){.external target="_blank"}
 
-## 
+### <span class="word2">Developing a nextflow pipeline for DNA methylation from Nanopore sequencing. </span>
+
+# Completed projects
+1. with Deepti / Charlotta
+2. with Hirak Patra
+3. with Amanda Welin
+4. 
+
 
 # Past projects
 ## Postdoctoral projects
-### [Machine Learning algorithm to identify bio-signatures from tuberculosis-exposed and non-exposed individuals.](postdoc1.qmd)
+### [<span class="word2">Machine Learning algorithm to identify bio-signatures from tuberculosis-exposed and non-exposed individuals.</span>](postdoc1.qmd)
 
 
-### [Identification of Differential Methylation patterns of tuberculosis patients, household contacts and healthy participants.](postdoc1.qmd)
+### [<span class="word2">Identification of Differential Methylation patterns of tuberculosis patients, household contacts and healthy participants.</span>](postdoc1.qmd)
 
 
-### [Reduced Representation of Bisulfite Sequencing (RRBS) data analysis from tuberculosis-exposed samples in different cell types](postdoc1.qmd)
+### [<span class="word2">Reduced Representation of Bisulfite Sequencing (RRBS) data analysis from tuberculosis-exposed samples in different cell types.</span>](postdoc1.qmd)
 
 
-### [Alveolar cell type deconvolution](https://github.com/JD2112/Alveolar-Cell-Type-Deconvolution){.external target="_blank"}
+### [<span class="word2">Alveolar cell type deconvolution</span>](postdoc1.qmd)
+[<span class="word4">GitHub link</span>](https://github.com/JD2112/Alveolar-Cell-Type-Deconvolution){.external target="_blank"}
 
-### [SARS-CoV-2 and epigenetics]
-
-### [Image Processing with MATLAB](https://github.com/JD2112/Image-Processing-MATLAB){.external target="_blank"}
+### [<span class="word2">SARS-CoV-2 and epigenetics</span>](postdoc1.qmd)
+[<span class="word4">GitHub link</span>](https://github.com/Lerm-Lab/COVID-19){.external target="_blank"}
+### [<span class="word2">Image Processing with MATLAB<span>](postdoc1.qmd)
+[<span class="word4">GitHub link</span>](https://github.com/JD2112/Image-Processing-MATLAB){.external target="_blank"}
 
 ### 
 
 ## Doctoral projects
 
-### [Complex-forming proteins escape the robust regulations of miRNA in human](phd-proj.qmd)
+### [<span class="word2">Complex-forming proteins escape the robust regulations of miRNA in human</span>](phd-proj.qmd)
 
-### [Insights into the miRNA regulations in human disease genes](phd-proj.qmd)
+### [<span class="word2">Insights into the miRNA regulations in human disease genes</span>](phd-proj.qmd)
 
-### [Explicating the role of old miRNAs in human disease progression](phd-proj.qmd)
+### [<span class="word2">Explicating the role of old miRNAs in human disease progression</span>](phd-proj.qmd)
 
-### [ceRNA networks in hCML and hAML]
+### [<span class="word2">ceRNA networks in hCML and hAML</span>]
