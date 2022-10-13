@@ -221,6 +221,7 @@ cookieconsent.run({
   <li><a href="#reduced-representation-of-bisulfite-sequencing-rrbs-data-analysis-from-tuberculosis-exposed-samples-in-different-cell-types." id="toc-reduced-representation-of-bisulfite-sequencing-rrbs-data-analysis-from-tuberculosis-exposed-samples-in-different-cell-types." class="nav-link" data-scroll-target="#reduced-representation-of-bisulfite-sequencing-rrbs-data-analysis-from-tuberculosis-exposed-samples-in-different-cell-types."><span class="word2">Reduced Representation of Bisulfite Sequencing (RRBS) data analysis from tuberculosis-exposed samples in different cell types.</span></a></li>
   <li><a href="#alveolar-cell-type-deconvolution" id="toc-alveolar-cell-type-deconvolution" class="nav-link" data-scroll-target="#alveolar-cell-type-deconvolution"><span class="word2">Alveolar cell type deconvolution</span></a></li>
   <li><a href="#sars-cov-2-and-epigenetics" id="toc-sars-cov-2-and-epigenetics" class="nav-link" data-scroll-target="#sars-cov-2-and-epigenetics"><span class="word2">SARS-CoV-2 and epigenetics</span></a></li>
+  <li><a href="#image-processing-with-matlab" id="toc-image-processing-with-matlab" class="nav-link" data-scroll-target="#image-processing-with-matlab"><span class="word2">Image Processing with MATLAB<span></span></span></a></li>
   <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul></li>
   <li><a href="#doctoral-projects" id="toc-doctoral-projects" class="nav-link" data-scroll-target="#doctoral-projects">Doctoral projects</a>
@@ -314,7 +315,11 @@ cookieconsent.run({
 </section>
 <section id="sars-cov-2-and-epigenetics" class="level3">
 <h3 class="anchored" data-anchor-id="sars-cov-2-and-epigenetics"><a href="./postdoc1.html"><span class="word2">SARS-CoV-2 and epigenetics</span></a></h3>
-<p><a href="https://github.com/Lerm-Lab/COVID-19" class="external" target="_blank"><span class="word4">GitHub link</span></a> ### <a href="./postdoc1.html"><span class="word2">Image Processing with MATLAB<span></span></span></a> <a href="https://github.com/JD2112/Image-Processing-MATLAB" class="external" target="_blank"><span class="word4">GitHub link</span></a></p>
+<p><a href="https://github.com/Lerm-Lab/COVID-19" class="external" target="_blank"><span class="word4">GitHub link</span></a></p>
+</section>
+<section id="image-processing-with-matlab" class="level3">
+<h3 class="anchored" data-anchor-id="image-processing-with-matlab"><a href="./postdoc1.html"><span class="word2">Image Processing with MATLAB<span></span></span></a></h3>
+<p><a href="https://github.com/JD2112/Image-Processing-MATLAB" class="external" target="_blank"><span class="word4">GitHub link</span></a></p>
 </section>
 <section id="section" class="level3">
 <h3 class="anchored" data-anchor-id="section"></h3>
@@ -565,7 +570,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/jyotirmoydas\.netlify\.app/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

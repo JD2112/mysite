@@ -28,7 +28,7 @@ format:
 *West Bengal University of Technology, India.* \
 **Main subject**: Biotechnology \
 **Dissertation title:** <span class="word">*Identification and evaluation of Intron Length Polymorphism (ILP) marker in Foxtail millet (Setaria italica) and to study evolutionary relationship between species by cross-species transferability.*</span> \
-**Supervisor:** Dr. Manoj Prasad, Ph.D., NIPGR, India. \
+**Supervisor:** Prof. Manoj Prasad, Ph.D., NIPGR, India. \
 Prof. Nandan Bhattacharyya, Haldia Institute of Technology, West Bengal.
 
 - **Master of Science in Biotechnology (2006 – 2008)** \
