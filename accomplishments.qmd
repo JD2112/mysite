@@ -17,14 +17,18 @@ format:
  - Journal of Biomolecular Structure & Dynamics - 1
  - Nutrients - 1
 
-# Collaborations
- - [Prof. Mika Gustafsson, Linköping University](https://liu.se/medarbetare/mikgu75){.external target="_blank"}
- - [Prof. Peter Söderkvist, Linköping University](https://liu.se/medarbetare/petso43){.external target="_blank"}
- - [Prof. Thomas Schön, Kalmar University](https://liu.se/medarbetare/thosc49){.external target="_blank"}
- - [Dr. Deepti Verma,  Linköping University](https://liu.se/medarbetare/deeve22){.external target="_blank"}
- - [Dr. Amanda Welin, Linköping University](https://liu.se/en/employee/amawe34){.external target="_blank"}
- - [Dr. Kamalika Sen, Bose Institute](http://www.jcbose.ac.in/research-scientist-details/kamalika-sen){.external target="_blank"}
- - [Dr. Hirak Patra, University of Cambridge](https://www.ceb.cam.ac.uk/news/dr-hirak-patra-join-ucl-associate-professor){.external target="_blank"}
+# Co-authors & citations
+::::{.columns}
+
+::: {.column width="50%"}
+![Co-authors](pics/coauthors.png)
+:::
+
+::: {.column width="50%"}
+![Citation metrices: [source- Google Scholar](https://scholar.google.co.in/citations?hl=en&view_op=list_works&gmla=AJsN-F6w6iwl0DTVq9qrowzlGLs0JgRgZZVFMDD-3Cc4OplAFlWlJdeJhX3JNmRR2Aoul4gMWXq8NiosIdgArx7bEHwn79OwQV5xjkt760zKVDPNApmYTIM&user=IMBYOv8AAAAJ){.external target="_blank"}](pics/citation-metrices.png)
+:::
+
+::::
 
 # Community Networking
  - [Science for Life Laboratory (SciLifeLab), Sweden](https://www.scilifelab.se){.external target="_blank"}

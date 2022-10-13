@@ -1,5 +1,9 @@
 ---
 title: "Experiences"
+format:
+    html:
+        css: custom.css
+        link-external-newwindow: true
 #subtitle: "BIOINFORMATICIST"
 # about:
 #     template: trestles
@@ -14,54 +18,77 @@ title: "Experiences"
 #           href: https://github.com-JD2112
 ---
 
-# Work Experience/s
-- Principal Research Engineer (2020/09 onwards) \
-    Bioinformatics, Core Facility, Faculty of Medicine and Health Sciences, BKV, Linköping University, Sweden
+# <span class="word3">Work Experience/s</span>
+- <span class="word4">Principal Research Engineer</span> (2020/09 onwards) \
+    [Bioinformatics, Core Facility, Faculty of Medicine and Health Sciences, BKV, Linköping University, Sweden](https://liu.se/en/article/bioinformatik-vid-core-facility){.external target="_blank"}
 
-- Postdoctoral Fellow (2017/06 – 2020/08) \
-    Department of Clinical and Experimental Medicine, Linköping University, Sweden
+    **<span class="word2">Key Responsibilities</span>** \
+    - Developing bioinformatics pipeline using Python, R for standardization of different DNA, RNA analyses. \
+    - Developing semi/automated Nextflow workflow to analyze the SARS-CoV-2 whole genome data using Illumina and Nanopore sequencing technologies. \
+    - Developing Shiny based graphical user interface to analyze Illumina array-based DNA methylation and downstream analyses. \
+    - Shiny server setup using CentOS.
+    - Developing source code on GitHub for general public use.
+    - Linux system administration, user group maintenance and setup workstation for development and production.
+    - User and project investigator on different HPCs (Tetralith on NSC, Rackham on Uppmax and NGP).
+    - Designed course curriculum and carried out course on *Bioinformatics for Microbiology* at the **Medical Microbiology** course (8BKG24 2022VT) at Linköping University, Sweden.
 
-**Key Responsibilities**
-- Computational analysis of whole genome (RRBS)/ array based (450K/850K) DNA methylation analysis from different participants in Sweden and Peru. \
-- Develop analysis pipelines to identify differential methylation patterns in different groups of dataset. \
-- Develop pipelines with unsupervised analyses like Multi-Dimensional Analysis (MDA), Principal Component Analysis (PCA), Component Analysis (CA), Multiple Factor Analysis (MFA) to reduce the dimensionality of data. \
-- Pipeline development to use supervised machine learning algorithms (LDA, GLMNET, RandomForest) to identify biosignature from the study. \
-- Develop analysis pipeline for transcriptome analysis. \
-- Use of MATLAB image processing to analyze live cell imaging.
+    **<span class="word2">Key Achievements</span>** \
+    - Designed and developed own projects. \
+    - Networking with Clinical Genomics, Sweden and Genomic Medicine, Sweden groups. \
+    - Extensive user of contenarized (Docker, Singularity, Conda) VM on different OS architectures. \
+    - Member and owner of Genomic Medicine, Sweden DockerHub organization. \
+    - Active maintainer of Genomic Medcine, Sweden SARS-CoV-2 (GMS-Artic) pipeline group. \
+    - Member of GMS Microbiology group. \
+    - Published 3 peer-reviewed research articles, and another 4 manuscripts under reviewed on reputed journals.
 
-**Key Achievements**
-- Extensive use of R language.​ \
-- Develop packages in R, notes on R Markdown. \
-- High performance computing analyses. \
-- Clustering computing with R and Shell. \
+- <span class="word4">Postdoctoral Fellow</span> (2017/06 – 2020/08) \
+    [Department of Clinical and Experimental Medicine, Linköping University, Sweden](https://liu.se/en/organisation/liu/bkv){.external target="_blank"}
 
-- Senior Research Fellow (2014/01 – 2017/01) \
-DST-INSPIRE (Govt. of India), Bioinformatics Centre, Bose Institute, India
+    **<span class="word2">Key Responsibilities</span>** \
+    - Computational analysis of whole genome (RRBS)/ array based (450K/850K) DNA methylation analysis from different participants in Sweden and Peru. \
+    - Develop analysis pipelines to identify differential methylation patterns in different groups of dataset. \
+    - Develop pipelines with unsupervised analyses like Multi-Dimensional Analysis (MDA), Principal Component Analysis (PCA), Component Analysis (CA), Multiple Factor Analysis (MFA) to reduce the dimensionality of data. \
+    - Pipeline development to use supervised machine learning algorithms (LDA, GLMNET, RandomForest) to identify biosignature from the study. \
+    - Develop analysis pipeline for transcriptome analysis. \
+    - Use of MATLAB image processing to analyze live cell imaging.
 
-**Key Responsibilities​**
-- Develop of analysis pipelines to identify different microRNAs (miRNAs) in human diseases and their roles in evolutionary perspective. \
-- Curation of databases to develop dataset to calculate the evolutionary rates in human and orthologs. \
-- Linux-based approach to search sequence homology. \
-- Use of different programming languages like Perl, Python to analyze dataset.
+    **<span class="word2">Key Achievements</span>**
+    - Extensive use of R language.​ \
+    - Develop packages in R, notes on R Markdown. \
+    - High performance computing analyses. \
+    - Clustering computing with R and Shell. \
+    - Supervising 2 Ph.D. students \
+    - Supervised (main supervisor) two master degree students. \
+    - Co-supervised 4 bachelor and master degree students. \
+    - Published two first authors, one shared first co-authors and two other co-authored research articles in peer-reviewed journals.
 
-**Key achievements**
-- Extensive statistical software analyses with SPSS.​ \
-- Develop algorithm based on shell scripts \
-- Linux system maintenance
+- <span class="word4">Senior Research Fellow</span> (2014/01 – 2017/01) \
+    DST-INSPIRE (Govt. of India), [Bioinformatics Centre, Bose Institute, India](http://www.jcbose.ac.in/centre-of-excellence-in-bioinformatics){.external target="_blank"} 
 
-- Junior Research Fellow (2012/01 – 2014/01) \
-DST-INSPIRE (Govt. of India), Bioinformatics Centre, Bose Institute, India
+    **<span class="word2">Key Responsibilities​</span>**
+    - Develop of analysis pipelines to identify different microRNAs (miRNAs) in human diseases and their roles in evolutionary perspective. \
+    - Curation of databases to develop dataset to calculate the evolutionary rates in human and orthologs. \
+    - Linux-based approach to search sequence homology. \
+    - Use of different programming languages like Perl, Python to analyze dataset.
 
-- Institute Fellow (2010/09 – 2012/01) \
-Bioinformatics Centre, Bose Institute, India
+    **<span class="word2">Key achievements</span>**
+    - Extensive statistical software analyses with SPSS.​ \
+    - Develop algorithm based on shell scripts \
+    - Linux system maintenance
 
-- Research Trainee (2009/07 – 2010/05) \
-National Institute of Plant Genome Research, New Delhi, India.
+- <span class="word4">Junior Research Fellow</span> (2012/01 – 2014/01) \
+DST-INSPIRE (Govt. of India), [Bioinformatics Centre, Bose Institute, India](http://www.jcbose.ac.in/centre-of-excellence-in-bioinformatics){.external target="_blank"}
 
-# Area of Expertise
+- <span class="word4">Institute Fellow</span> (2010/09 – 2012/01) \
+[Bioinformatics Centre, Bose Institute, India](http://www.jcbose.ac.in/centre-of-excellence-in-bioinformatics){.external target="_blank"} 
+
+- <span class="word4">Research Trainee</span> (2009/07 – 2010/05) \
+[National Institute of Plant Genome Research, New Delhi, India.](https://nipgr.ac.in){.external target="_blank"}
+
+# <span class="word3">Area of Expertise</span>
 ![](pics/experience1.png)
 
-# Skills
+# <span class="word3">Skills</span>
 
 ```{r, eval=TRUE, echo=FALSE}
 suppressMessages(library(plotly))

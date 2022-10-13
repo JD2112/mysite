@@ -31,10 +31,14 @@ Check on [GitHub](https://github.com/JD2112).
 ### <span class="word2">Developing a nextflow pipeline for DNA methylation from Nanopore sequencing. </span>
 
 # Completed projects
-1. with Deepti / Charlotta
-2. with Hirak Patra
-3. with Amanda Welin
-4. 
+
+### [<span class="word2">Process-engineered synthesis of ultrasmall gold nanoparticles](com-projects.qmd)
+
+### [<span class="word2">Methylome analysis for prediction of long and short-term survival in glioblastoma patients](com-projects.qmd)
+
+### [<span class="word2">Identification of miRNAs related to psoriasis from RRBS data](com-projects.qmd)
+
+### [<span class="word2">Proteomic profiling of Olfactomedin-4 marked human neutrophil subset](com-projects.qmd)
 
 
 # Past projects
@@ -67,3 +71,13 @@ Check on [GitHub](https://github.com/JD2112).
 ### [<span class="word2">Explicating the role of old miRNAs in human disease progression</span>](phd-proj.qmd)
 
 ### [<span class="word2">ceRNA networks in hCML and hAML</span>]
+
+## Master project
+
+### [<span class="word2">Identification of ILP markers in *Setaria italica*](mas-proj.qmd)
+
+## Bachelor projects
+
+### [<span class="word2">Iron chelation for beta thalassemia patients](bach-proj.qmd)
+
+## [<span class="word2">Kingfishers of Sudarbans](bach-proj.qmd)

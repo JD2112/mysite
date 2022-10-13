@@ -27,6 +27,13 @@
    
 }
 
+.word5 {
+   color: cyan;
+   font-style: bold;
+   font-size: 10em;
+   
+}
+
 .emphasized {
    font-size: 1.4em;
 }

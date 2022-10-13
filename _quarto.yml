@@ -62,6 +62,8 @@ website:
         - com-projects.qmd
         - postdoc1.qmd
         - phd-proj.qmd
+        - mas-proj.qmd
+        - bach-proj.qmd
       tools:
         - icon: twitter
           href: https://twitter.com

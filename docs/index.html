@@ -134,6 +134,13 @@ cookieconsent.run({
 
 
 
+<div class="columns">
+<div class="columm" width="50%">
+<p><a href="./about.html"><span class="word5">Click me!</span></a></p>
+</div><div class="column" style="width:50%;">
+
+</div>
+</div>
 
 
 
@@ -347,6 +354,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return popup.innerHTML;
     });
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/https:\/\/jyotirmoydas\.netlify\.app/);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
@@ -367,6 +388,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://scholar.google.co.in/citations?user=IMBYOv8AAAAJ&amp;hl=en">Google Scholar</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.researchgate.net/profile/Jyotirmoy-Das-3">ResearchGate</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/dasjyotirmoy/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0002-5649-4658">ORCiD</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.scopus.com/authid/detail.uri?authorId=55764683900">Scopus</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://loop.frontiersin.org/people/1519976/overview">Loop</a>
   </li>  
 </ul>
     </div>

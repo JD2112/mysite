@@ -177,7 +177,7 @@ cookieconsent.run({
    
   <ul>
   <li><a href="#invited-reviewer-of-journals" id="toc-invited-reviewer-of-journals" class="nav-link active" data-scroll-target="#invited-reviewer-of-journals">Invited Reviewer of Journals</a></li>
-  <li><a href="#collaborations" id="toc-collaborations" class="nav-link" data-scroll-target="#collaborations">Collaborations</a></li>
+  <li><a href="#co-authors-citations" id="toc-co-authors-citations" class="nav-link" data-scroll-target="#co-authors-citations">Co-authors &amp; citations</a></li>
   <li><a href="#community-networking" id="toc-community-networking" class="nav-link" data-scroll-target="#community-networking">Community Networking</a></li>
   <li><a href="#presentations" id="toc-presentations" class="nav-link" data-scroll-target="#presentations">Presentations</a></li>
   </ul>
@@ -216,17 +216,25 @@ cookieconsent.run({
 <li>Nutrients - 1</li>
 </ul>
 </section>
-<section id="collaborations" class="level1">
-<h1>Collaborations</h1>
-<ul>
-<li><a href="https://liu.se/medarbetare/mikgu75" class="external" target="_blank">Prof.&nbsp;Mika Gustafsson, Linköping University</a></li>
-<li><a href="https://liu.se/medarbetare/petso43" class="external" target="_blank">Prof.&nbsp;Peter Söderkvist, Linköping University</a></li>
-<li><a href="https://liu.se/medarbetare/thosc49" class="external" target="_blank">Prof.&nbsp;Thomas Schön, Kalmar University</a></li>
-<li><a href="https://liu.se/medarbetare/deeve22" class="external" target="_blank">Dr.&nbsp;Deepti Verma, Linköping University</a></li>
-<li><a href="https://liu.se/en/employee/amawe34" class="external" target="_blank">Dr.&nbsp;Amanda Welin, Linköping University</a></li>
-<li><a href="http://www.jcbose.ac.in/research-scientist-details/kamalika-sen" class="external" target="_blank">Dr.&nbsp;Kamalika Sen, Bose Institute</a></li>
-<li><a href="https://www.ceb.cam.ac.uk/news/dr-hirak-patra-join-ucl-associate-professor" class="external" target="_blank">Dr.&nbsp;Hirak Patra, University of Cambridge</a></li>
-</ul>
+<section id="co-authors-citations" class="level1">
+<h1>Co-authors &amp; citations</h1>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pics/coauthors.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Co-authors</figcaption><p></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pics/citation-metrices.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Citation metrices: <a href="https://scholar.google.co.in/citations?hl=en&amp;view_op=list_works&amp;gmla=AJsN-F6w6iwl0DTVq9qrowzlGLs0JgRgZZVFMDD-3Cc4OplAFlWlJdeJhX3JNmRR2Aoul4gMWXq8NiosIdgArx7bEHwn79OwQV5xjkt760zKVDPNApmYTIM&amp;user=IMBYOv8AAAAJ" class="external" target="_blank">source- Google Scholar</a></figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="community-networking" class="level1">
 <h1>Community Networking</h1>
@@ -539,7 +547,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp(/https:\/\/jyotirmoydas\.netlify\.app/);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

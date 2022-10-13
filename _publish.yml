@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: fe544cf6-8113-4913-a5fd-fca5567f1a71
+      url: 'https://jyotirmoydas.netlify.app'
